@@ -1,0 +1,32 @@
+.title {
+  font-size: 38px;
+  font-family: "georgia";
+}
+
+div {
+  font-family: "helvetica";
+  font-size: 19px;
+}
+
+ol {
+  counter-reset: item;
+}
+
+li {
+  display: block;
+}
+
+li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none!important;
+  border-bottom: 0!important;
+}
+
+h1 {
+  font-size: 22.8px;
+}
+
