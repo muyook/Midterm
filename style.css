@@ -146,6 +146,10 @@ td {
   width: 50px;
 }
 
+#album {
+  text-align: left;
+}
+
 #peak {
   text-align: center;
 }
