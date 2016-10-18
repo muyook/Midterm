@@ -1,32 +1,151 @@
 .title {
-  font-size: 38px;
+  font-size: 33px;
   font-family: "georgia";
+  font-weight: normal;
+}
+
+body {
+  margin-left: 50px;
+  margin-right: 75px;
+  margin-bottom: 100px;
 }
 
 div {
   font-family: "helvetica";
-  font-size: 19px;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
-ol {
-  counter-reset: item;
+#h3 {
+  text-align: center;
 }
 
-li {
-  display: block;
+.contents {
+  border-style: solid;
+  border-width: thin;
+  border-color: #ABABAA;
+  margin-right: 875px;
+  background-color: #FAFAFA;
+  margin-top: 15px;
 }
 
-li:before {
-  content: counters(item, ".") " ";
-  counter-increment: item;
+a:link, a:visited, a:active {
+  text-decoration: none;
+  border-bottom: 0;
 }
 
-a:link, a:visited, a:hover, a:active {
-  text-decoration: none!important;
-  border-bottom: 0!important;
+a:link {
+  color: #0645AE;
+}
+
+a:visited {
+  color: #142180;
+}
+
+a:active {
+  color: orange;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 h1 {
-  font-size: 22.8px;
+  font-size: 22.5px;
+  font-family: "georgia";
+  font-weight: normal;
+  border-bottom-style: solid;
+  border-bottom-color: #ABABAA;
+  border-bottom-width: thin;
 }
 
+#chart {
+  width: 731px;
+  height: 383px;
+  border: none;
+}
+
+img {
+  width: 233.28px;
+  height: 174.96px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #CDCDCC;
+}
+
+figure {
+  float: right;
+  border-style: solid;
+  border-width: thin;
+  border-color: #CDCDCC;
+  padding: 3px;
+  background-color: #FAFAFA;
+  margin-left: 15px;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+
+h2 {
+  font-size: 17.6px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.columns {
+  column-count: 2;
+}
+
+.column-left {
+  float: left;
+  position: relative;
+  column-width: 40%;
+  display: inline-block;
+}
+
+.column-right {
+  display: inline-block;
+  float: right;
+  position: relative;
+  column-width: 40%;
+}
+
+/* table */
+
+table, th, td {
+  border-style: solid;
+  border-width: thin;
+  border-collapse: collapse;
+  border-color: #AAAAA9;
+}
+
+th {
+  height: 75px;
+  background-color: #F3F3F3;
+}
+
+td {
+  background-color: #FAFAFA;
+  padding-left: 5px;
+}
+
+#th1 {
+  width: 210px;
+}
+
+#th2 {
+  width: 310px;
+}
+
+#th3 {
+  width: 50px;
+}
+
+#peak {
+  text-align: center;
+}
